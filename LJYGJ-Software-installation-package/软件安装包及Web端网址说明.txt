@@ -1,0 +1,10 @@
+Android APP端：
+测试账号及密码
+App端： 13116149652     123456789
+
+
+
+Html5 Web端（网址：https://rmb.sipcoj.com/）：
+测试账号及密码
+web端：admin     123456
+
