@@ -1,0 +1,172 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页
+	{
+	    "path" : "pages/login/login",
+	    "style" :                                                                                    
+	    {
+	        "navigationBarTitleText": "登录",
+	        "enablePullDownRefresh": false
+	    }
+	    
+	},
+		{
+			"path" : "pages/register/register",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "注册",
+				"enablePullDownRefresh": false
+			}
+			
+		},
+		{
+			"path": "pages/recognition/recognition",
+			"style": {
+				"navigationBarTitleText": "垃圾识别"
+			}
+		},
+		{
+		    "path" : "pages/location/location",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "附近垃圾桶",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/question/question",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的积分",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/recognition/textSearch/textSearch",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "文字搜索",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/recognition/pictureSearch/pictureSearch",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "拍照识别",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/recognition/voiceSearch/voiceSearch",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "语音识别",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+	    ,{
+            "path" : "pages/recognition/details/detailshome",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "垃圾桶详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/recognition/details/detail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "垃圾桶详情",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/recognition/knowledge/knowledge",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "分类常识",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/recognition/knowledge/knowledgeDetail/recoverable",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "可回收垃圾",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#bef1c8"
+            }
+            
+        }
+		,{
+		    "path" : "pages/recognition/knowledge/knowledgeDetail/harmful",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "有害垃圾",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#f9eae9"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/recognition/knowledge/knowledgeDetail/foodWaste",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "厨余垃圾",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#e0eaf6"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/recognition/knowledge/knowledgeDetail/other",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "其他垃圾",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#e8e5e2"
+		    }
+		    
+		}
+        
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#40974c",
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"list": [{
+			"pagePath": "pages/recognition/recognition",
+			"iconPath": "static/recognition1.png",
+			"selectedIconPath": "static/recogintion.png",
+			"text": "垃圾识别"
+		}, {
+			"pagePath": "pages/location/location",
+			"iconPath": "static/location.png",
+			"selectedIconPath": "static/location1.png",
+			"text": "附近垃圾桶"
+		}
+		,
+		{
+			"pagePath": "pages/question/question",
+			"iconPath": "static/jifen2.png",
+			"selectedIconPath": "static/jifen.png",
+			"text": "我的积分"
+		}
+		]
+	}
+}
